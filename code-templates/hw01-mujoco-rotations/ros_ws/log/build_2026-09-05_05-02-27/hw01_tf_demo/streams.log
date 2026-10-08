@@ -1,0 +1,30 @@
+[0.492s] Invoking command in '/home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo': PYTHONPATH=/home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build --no-deps symlink_data
+[0.611s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.611s]   warnings.warn(
+[0.630s] running develop
+[0.704s] running egg_info
+[0.704s] creating hw01_tf_demo.egg-info
+[0.704s] writing hw01_tf_demo.egg-info/PKG-INFO
+[0.704s] writing dependency_links to hw01_tf_demo.egg-info/dependency_links.txt
+[0.704s] writing entry points to hw01_tf_demo.egg-info/entry_points.txt
+[0.705s] writing requirements to hw01_tf_demo.egg-info/requires.txt
+[0.705s] writing top-level names to hw01_tf_demo.egg-info/top_level.txt
+[0.705s] writing manifest file 'hw01_tf_demo.egg-info/SOURCES.txt'
+[0.705s] reading manifest file 'hw01_tf_demo.egg-info/SOURCES.txt'
+[0.706s] writing manifest file 'hw01_tf_demo.egg-info/SOURCES.txt'
+[0.706s] running build_ext
+[0.707s] Creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01-tf-demo.egg-link (link to .)
+[0.707s] Installing tf_broadcaster_node script to /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/hw01_tf_demo
+[0.707s] 
+[0.707s] Installed /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo
+[0.707s] running symlink_data
+[0.707s] creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index
+[0.707s] creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index
+[0.707s] creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index/packages
+[0.707s] symbolically linking /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/resource/hw01_tf_demo -> /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index/packages
+[0.707s] symbolically linking /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/package.xml -> /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo
+[0.707s] creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo/launch
+[0.707s] symbolically linking /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/launch/hw01.launch.py -> /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo/launch
+[0.707s] creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo/rviz
+[0.707s] symbolically linking /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/rviz/demo.rviz -> /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo/rviz
+[0.725s] Invoked command in '/home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo' returned '0': PYTHONPATH=/home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build --no-deps symlink_data

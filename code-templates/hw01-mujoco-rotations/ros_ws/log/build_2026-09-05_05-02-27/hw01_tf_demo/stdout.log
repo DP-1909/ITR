@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating hw01_tf_demo.egg-info
+writing hw01_tf_demo.egg-info/PKG-INFO
+writing dependency_links to hw01_tf_demo.egg-info/dependency_links.txt
+writing entry points to hw01_tf_demo.egg-info/entry_points.txt
+writing requirements to hw01_tf_demo.egg-info/requires.txt
+writing top-level names to hw01_tf_demo.egg-info/top_level.txt
+writing manifest file 'hw01_tf_demo.egg-info/SOURCES.txt'
+reading manifest file 'hw01_tf_demo.egg-info/SOURCES.txt'
+writing manifest file 'hw01_tf_demo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01-tf-demo.egg-link (link to .)
+Installing tf_broadcaster_node script to /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/hw01_tf_demo
+
+Installed /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo
+running symlink_data
+creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index
+creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index
+creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index/packages
+symbolically linking /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/resource/hw01_tf_demo -> /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index/packages
+symbolically linking /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/package.xml -> /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo
+creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo/launch
+symbolically linking /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/launch/hw01.launch.py -> /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo/launch
+creating /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo/rviz
+symbolically linking /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/rviz/demo.rviz -> /home/dev/Downloads/code-templates/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo/rviz
