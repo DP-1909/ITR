@@ -1,14 +1,31 @@
+from pathlib import Path
 import mujoco
 import mujoco.viewer
 import numpy as np
 import time
 
-# Load TurtleBot3 Waffle Pi Model
-model_path = "robotis_mujoco_menagerie/robotis_tb3/scene_turtlebot3_waffle_pi.xml"
-try:
-    model = mujoco.MjModel.from_xml_path(model_path)
-except Exception:
-    model = mujoco.MjModel.from_xml_path("robotis_tb3/scene_turtlebot3_waffle_pi.xml")
+# Search recursively across the user's home directory
+target_filename = "scene_turtlebot3_waffle_pi.xml"
+script_dir = Path(__file__).resolve().parent
+repo_root = script_dir.parent
+model_paths = (
+    repo_root / "robotis_mujoco_menagerie/robotis_tb3" / target_filename,
+    script_dir / "robotis_mujoco_menagerie/robotis_tb3" / target_filename,
+    Path.home() / "robotis_mujoco_menagerie/robotis_tb3" / target_filename,
+    repo_root / "ITR_mujoco_fk_lab/robotis_mujoco_menagerie/robotis_tb3" / target_filename,
+    Path.home() / "ITR_mujoco_fk_lab/robotis_mujoco_menagerie/robotis_tb3" / target_filename,
+)
+model_path = next((path for path in model_paths if path.is_file()), None)
+
+if model_path is None:
+    raise FileNotFoundError(
+        f"Could not locate '{target_filename}'. Checked:\n"
+        + "\n".join(f"  - {path}" for path in model_paths)
+    )
+
+print(f"[INFO] Loaded model from: {model_path}")
+
+model = mujoco.MjModel.from_xml_path(str(model_path))
 
 data = mujoco.MjData(model)
 
