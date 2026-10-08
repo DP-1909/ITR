@@ -1,21 +1,3 @@
-"""
-spawn_franka.py — Franka Emika Panda (7-DOF) Interactive MuJoCo Simulation
-===========================================================================
-Features:
-  • Tkinter SLIDER GUI — one slider per joint + gripper
-  • PD controller with gravity compensation
-  • ANALYTICAL Forward Kinematics (from body chain transforms)
-  • Comparison: Analytical FK vs MuJoCo Simulation coordinates
-  • Position error (mm) and orientation error (deg) displayed live
-  • Jacobian computation + end-effector velocity
-  • Body/world frame axes visualization
-  • Telemetry HUD overlay
-  • Predefined poses + demo trajectory mode
-
-Usage:
-  cd ME-639/lab && source ../venv/bin/activate && python3 spawn_franka.py
-"""
-
 import mujoco
 import mujoco.viewer
 import time
