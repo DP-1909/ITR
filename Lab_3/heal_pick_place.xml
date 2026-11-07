@@ -1,4 +1,0 @@
-<mujoco model="heal_pick_place_wrapper">
-  <!-- Canonical scene and mesh layout live under robot_descriptions/. -->
-  <include file="robot_descriptions/heal_pick_place.xml"/>
-</mujoco>
